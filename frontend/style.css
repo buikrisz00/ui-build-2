@@ -1,0 +1,99 @@
+/* CSS reset start */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+a{
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* CSS reset end */
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #4343F9;    
+    margin: auto;
+}
+
+#btn {
+    position: absolute;
+    background-color: #4343F9;
+    width: 240px;
+    height: 360px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+    left: 50%;
+    top: 50%;
+    margin-left: -120px;
+    margin-top: -180px;
+}
+
+#beautiful {
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
+
+#circle1 {
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+#circle2 {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+#circle3 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+#circle4 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
